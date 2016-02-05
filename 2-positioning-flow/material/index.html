@@ -15,7 +15,8 @@
 			{
 				margin-right:auto; /*center container with margins left & right set to auto*/
 				margin-left:auto;
-				width:960px;	/*to center an element it must have a fixed width*/
+				width:600px;	/*to center an element it must have a fixed width*/
+				height: 400px;
 				background-color:#AA4639;
 				border-radius: 10px;
 				padding: 10px;
@@ -32,6 +33,19 @@
 				border-radius:10px;
 				font-size: 35px;
 			}
+
+			div.box:nth-child(2){
+				float: right;
+			}
+			div.box:nth-child(3){
+				position: relative;top: 60px;
+			}
+			div.box:nth-child(4){
+				float: right;
+				position: relative;top: 60px;
+			}
+
+			/*
 			div.box:nth-child(1){
 				position: relative;top: 200px;
 			}
@@ -44,7 +58,7 @@
 			div.box:nth-child(4){
 				position: relative;top: -100px;
 			}
-
+*/
 		</style>
 	</head>
 	<body>
